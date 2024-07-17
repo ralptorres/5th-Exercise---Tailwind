@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-[#04c582]">
+    <div class="flex items-center justify-center h-screen relative">
+      <div
+        class="border-4 border-[#515151] w-[150px] h-[150px] rounded-full absolute top-[200px] overflow-hidden"
+      >
+        <img src="./assets/img4.jpg" alt="" class="object-fill w-full h-full" />
+      </div>
+      <div
+        class="border border-black m-auto w-[500px] h-[570px] px-10 rounded-3xl bg-[#2e3137] shadow-gray-700 shadow-2xl"
+      >
+        <p class="text-[36px] mt-20 mb-3 font-bold text-white">Login</p>
+        <hr />
+
+        <label
+          class="block mb-2 text-lg font-medium text-gray-400 mt-10"
+          for="username"
+          >EMAIL</label
+        >
+        <input
+          type="text"
+          id="username"
+          class="block w-full p-2 border border-gray-300 placeholder:text-white bg-gray-400 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+          placeholder="Enter your username"
+        />
+        <label
+          class="block mt-8 mb-2 text-lg font-medium text-gray-400"
+          for="password"
+          >PASSWORD</label
+        >
+        <input
+          type="password"
+          id="password"
+          class="block w-full p-2 border border-gray-300 placeholder:text-white bg-gray-400 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+          placeholder="Enter your password"
+        />
+
+        <button
+          class="mt-14 w-48 bg-green-500 text-white p-2 rounded-lg hover:bg-green-600 flex m-auto justify-center active:bg-green-400"
+        >
+          Submit
+        </button>
+        <p class="m-6 text-center underline text-gray-400 cursor-pointer">
+          FORGET YOUR PASSWORD?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
